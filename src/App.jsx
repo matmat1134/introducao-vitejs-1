@@ -3,6 +3,19 @@ import { Routes, Route} from 'react-router-dom'
 import Home from './pages/home';
 import Exemplo01 from './pages/exemplos/ex-01';
 import Exemplo02 from './pages/exemplos/ex-02';
+import Exemplo03 from './pages/exemplos/ex-03';
+import Exemplo04 from './pages/exemplos/ex-04';
+import Exemplo05 from './pages/exemplos/ex-05';
+import Exemplo06 from './pages/exemplos/ex-06';
+import Exemplo07 from './pages/exemplos/ex-07';
+import Exemplo08 from './pages/exemplos/ex-08';
+import Exemplo09 from './pages/exemplos/ex-09';
+import Exemplo10 from './pages/exemplos/ex-10';
+import Exemplo11 from './pages/exemplos/ex-11';
+import Exemplo12 from './pages/exemplos/ex-12';
+import Exemplo13 from './pages/exemplos/ex-13';
+import Exemplo14 from './pages/exemplos/ex-14';
+import Exemplo15 from './pages/exemplos/ex-15';
 
 function App() {
 
@@ -11,6 +24,19 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/exemplo/1" element={<Exemplo01 />}/>
       <Route path="/exemplo/2" element={<Exemplo02 />}/>
+      <Route path="/exemplo/3" element={<Exemplo03 />}/>
+      <Route path="/exemplo/4" element={<Exemplo04 />}/>
+      <Route path="/exemplo/5" element={<Exemplo05 />}/>
+      <Route path="/exemplo/6" element={<Exemplo06 />}/>
+      <Route path="/exemplo/7" element={<Exemplo07 />}/>
+      <Route path="/exemplo/8" element={<Exemplo08 />}/>
+      <Route path="/exemplo/9" element={<Exemplo09 />}/>
+      <Route path="/exemplo/10" element={<Exemplo10 />}/>
+      <Route path="/exemplo/11" element={<Exemplo11 />}/>
+      <Route path="/exemplo/12" element={<Exemplo12 />}/>
+      <Route path="/exemplo/13" element={<Exemplo13 />}/>
+      <Route path="/exemplo/14" element={<Exemplo14 />}/>
+      <Route path="/exemplo/15" element={<Exemplo15 />}/>
     </Routes>
   )
 }
