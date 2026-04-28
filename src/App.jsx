@@ -15,7 +15,8 @@ import Exemplo11 from './pages/exemplos/ex-11';
 import Exemplo12 from './pages/exemplos/ex-12';
 import Exemplo13 from './pages/exemplos/ex-13';
 import Exemplo14 from './pages/exemplos/ex-14';
-import Exemplo15 from './pages/exemplos/ex-15';
+import Atividade01 from './pages/atividades/atv-01';
+import Atividade02 from './pages/atividades/atv-02';
 
 function App() {
 
@@ -36,7 +37,9 @@ function App() {
       <Route path="/exemplo/12" element={<Exemplo12 />}/>
       <Route path="/exemplo/13" element={<Exemplo13 />}/>
       <Route path="/exemplo/14" element={<Exemplo14 />}/>
-      <Route path="/exemplo/15" element={<Exemplo15 />}/>
+      <Route path="/atividade/1" element={<Atividade01 />}/>
+      <Route path="/atividade/2" element={<Atividade02 />}/>
+
     </Routes>
   )
 }
