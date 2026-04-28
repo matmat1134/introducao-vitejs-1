@@ -16,6 +16,7 @@ function Home() {
                 <h2>Atividades</h2>
                 <Link to="/atividade/1">atividade 1 - componente básico</Link>
                 <Link to="/atividade/2">atividade 2 - State</Link>
+                <Link to="/atividade/3">atividade 3 - butons LGBTQIAPN+</Link>
             </div>
         </div>
     )

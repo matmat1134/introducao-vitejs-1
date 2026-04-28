@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    justify-content: center;
+}
+
+.containerOperacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.botao1 {
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.botao2 {
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+.botao3 {
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+}
+
+.botao4 {
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.botao5 {
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}

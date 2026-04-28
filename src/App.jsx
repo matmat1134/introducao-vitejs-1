@@ -17,6 +17,7 @@ import Exemplo13 from './pages/exemplos/ex-13';
 import Exemplo14 from './pages/exemplos/ex-14';
 import Atividade01 from './pages/atividades/atv-01';
 import Atividade02 from './pages/atividades/atv-02';
+import Atividade03 from './pages/atividades/atv-03';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
       <Route path="/exemplo/14" element={<Exemplo14 />}/>
       <Route path="/atividade/1" element={<Atividade01 />}/>
       <Route path="/atividade/2" element={<Atividade02 />}/>
+      <Route path="/atividade/3" element={<Atividade03 />}/>
 
     </Routes>
   )
