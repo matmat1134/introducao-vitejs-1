@@ -1,22 +1,37 @@
 .container {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-    height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 97vh;
 }
 
-.formulario {     
-    display: flex; 
-    flex-direction: row; 
-    margin-top: 5rem;
-    max-width: 40rem;
-    gap: 1.5rem;
+.formulario {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  max-width: 40rem;
+  gap: 1.5rem;
 }
 
-.box1{
-    width: 6rem;
+.box1 {
+  width: 6rem;
 }
 
-.box2{
-    width: 35rem;
+.box2 {
+  width: 35rem;
+}
+
+.p {
+  margin-top: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgba(177, 177, 177, 0.534);
+  border-color: gray;
+  padding: 3px;
+}
+
+.button {
+  border: 2px solid;
+  background-color: brown;
+  border-color: black;
 }

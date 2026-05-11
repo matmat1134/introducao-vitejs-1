@@ -22,7 +22,7 @@ export default function Atividade04() {
     e.preventDefault();
     // console.log("Enviando para API:", formData);
     // Aqui você faria um POST para sua API
-    setCadastros([...cadastros, nome]);
+    setCadastros([...cadastros, [qtd, " x ", nome]]);
   };
 
   return (
@@ -56,11 +56,15 @@ export default function Atividade04() {
                     value={formData.nome}
                     onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
                 /> */}
-        <button type="submit">Adicionar</button>
+        <button type="submit" className={styles.button}>
+          Adicionar
+        </button>
       </form>
 
       {cadastros.map((item) => (
-        <p key={item}>{item}</p>
+        <p key={item} className={styles.p}>
+          {item}
+        </p>
       ))}
     </div>
   );
